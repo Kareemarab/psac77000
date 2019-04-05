@@ -14,15 +14,14 @@
     <header class="major">
        <h1><span class="spanIot">PSAC</span> <span class="mainIot">77000 PostDoctoral</span><span class="spanIot"> Union</span></h1>
       <div class="element">
-        <div class="sub-element">Bargaining begins!</div>
-        <div class="sub-element">Collective Bargaining Training Event.</div>
-        <div class="sub-element">Welcome, Alberto!</div>
+        <div class="sub-element">The website is under-construction.</div>
+        {{-- <div class="sub-element">Collective Bargaining Training Event.</div>
+        <div class="sub-element">Welcome, Alberto!</div> --}}
       </div>
     </header>
-    <div class="content">
-
-      <ul class="actions">
-        <li><a style=" box-shadow: inset 0 0 0 2px #fff; color: #fff;" href="#one" class="button next scrolly">More About CUPU</a></li>
+    <div style="position: center;" class="content">
+      <ul style="padding-left: 40%;" class="actions">
+        <li><a style=" box-shadow: inset 0 0 0 2px #fff; color: #fff;" href="{{ url('/benefits') }}" class="button next scrolly">Apply for Benefits!</a></li>
       </ul>
     </div>
   </div>
@@ -30,8 +29,6 @@
 
 <!-- Main -->
 <div id="main">
-
-
 
     <!-- CTA -->
     <section id="cta2">
@@ -48,11 +45,11 @@
                   </span>
                   <header class="major">
                     <h3 style="color: #fff;"><a href="/posts/{{ $post->id }}" class="link">{{ $post->title }}</a></h3>
-                    <p style="color: #fff;">Posted by {{ $post->user->name }}</p>
+                    <p style="color: #fff;">Posted by {{ $post->user->name }} @ {{ $post->created_at }}</p>
                   </header>
                 </article>
         @endforeach        
-      @endif 
+      @endif
 
       <article>
         <span class="image">
@@ -96,7 +93,7 @@
           <img src="images/4.jpeg" alt="" />
         </span>
         <header class="major">
-          <h3><a href="{{ url('/events') }}" class="link">See more.</a></h3>
+          <h3><a href="{{ url('/events') }}" class="link">See More</a></h3>
           <p></p>
         </header>
       </article>

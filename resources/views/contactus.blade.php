@@ -22,15 +22,15 @@
 			        </thead>
 			        <tbody>
 		                <tr>
-		                    <td style="color: #000;">Shermeen Nizami, interim President</td>
+		                    <td style="color: #000;">Donald Fowler, President</td>
 		                    <td style="color: #000;">president.psac77000@gmail.com</td>
 		                </tr>
 		                <tr>
-		                    <td style="color: #000;">Jesse Heilman, interim Vice-President</td>
+		                    <td style="color: #000;">Alberto Tonero, Vice-President</td>
 		                    <td style="color: #000;">vp.psac77000@gmail.com</td>
 		                </tr>
 		                <tr>
-		                    <td style="color: #000;">Zied Bouida, interim Secretary-Treasurer</td>
+		                    <td style="color: #000;">Zied Bouida, Secretary-Treasurer</td>
 		                    <td style="color: #000;">treasurer.psac77000@gmail.com</td>
 		                </tr>
 			        </tbody>
@@ -46,7 +46,7 @@
 			        <tbody> 
 		                
 		                <tr>
-		                    <td style="color: #000;">Violeta Marquez-Cruz                    </td>
+		                    <td style="color: #000;">Violeta Marquez-Cruz</td>
 		                    						 
 		                    <td style="color: #000;">contact.psac77000@gmail.com</td>
 		                </tr>
@@ -75,7 +75,7 @@
 			        </thead>
 			        <tbody>
 		                <tr>
-		                    <td style="color: #000;">Chav Chhiv Chau</td>
+		                    <td style="color: #000;">Rahaf Ajaj</td>
 		                    <td style="color: #000;">contact.psac77000@gmail.com</td>
 		                </tr>
 			        </tbody>
@@ -94,7 +94,7 @@
 		                    <td style="color: #000;">Ashley Bickerton, PSAC Negotiator</td>
 		                    <td style="color: #000;">bickera@psac-afpc.com </td>
 		                </tr>
-		                <tr>
+		                {{-- <tr>
 		                    <td style="color: #000;">Jesse Heilman</td>
 		                    <td style="color: #000;">contact.psac77000@gmail.com</td>
 		                </tr>
@@ -105,7 +105,7 @@
 		                <tr>
 		                    <td style="color: #000;">Chunyun Ma</td>
 		                    <td style="color: #000;">contact.psac77000@gmail.com</td>
-		                </tr>
+		                </tr> --}}
 		                <tr>
 		                    <td style="color: #000;">Donald Fowler</td>
 		                    <td style="color: #000;">contact.psac77000@gmail.com</td>
@@ -123,8 +123,8 @@
 			        </thead>
 			        <tbody> 
 		                <tr>
-		                    <td style="color: #000;">Anne-Marie Grondin, Regional Representative</td>
-		                    <td style="color: #000;">grondia@psac-afpc.com</td>
+		                    <td style="color: #000;">Caroline Bédard, Regional Representative</td>
+		                    <td style="color: #000;">bedardC@psac-afpc.com</td>
 		                </tr>
 		                <tr>
 		                    <td style="color: #000;">Greg McGillis, Regional Executive Vice-President</td>

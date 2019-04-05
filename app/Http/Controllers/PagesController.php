@@ -35,4 +35,8 @@ class PagesController extends Controller
     	return view('contactus');
     }
 
+    public function benefits(){
+        return view('benefits');
+    }
+
 }

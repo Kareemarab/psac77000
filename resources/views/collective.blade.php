@@ -16,7 +16,7 @@
 			We have recently submitted our notice to bargain to the employer, triggering the process through which our <a href="{{ url('/contactus') }}">bargaining</a> will enter into negotiations. Negotiations are done over the course of several meetings. The process may take several weeks to several months. <br>
 			It is important to stay informed about our negotiations. To this end, visit this website regularly, and <a href="{{ url('/contactus') }}">contact us </a> to provide us with your personal email address for email updates. We cannot use the employer’s server to communicate strategic information with you. Furthermore, keep an eye out for membership meetings and sessions on collective bargaining in the workplace and visit the <a href="{{ url('/') }}">News & Events</a> page regularly.<br>
 
-			<span class="image fit"><img src="/storage/images/PDF_C.pdf" alt="" /></span>
+			<span class="image fit"><img src="../images/PDF_CA.pdf" alt="" /></span>
 		</div>
 	</section>
 

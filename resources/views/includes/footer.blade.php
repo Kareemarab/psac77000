@@ -57,7 +57,7 @@
     <a href="#" class="icon alt fa-dribbble"><span class="label">Instagram</span></a>
 </div>
 <div class="footer-copyright">
-    <p> &copy; PSAC 77000 | All rights reserved. 2018. </p>
+    <p> &copy; PSAC 77000 | All rights reserved. 2019. </p>
 </div>
 </footer>
 <!-- Footer -->

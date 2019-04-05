@@ -24,10 +24,10 @@
 			</p>
 			<div class="row">
 				<div class="6u 12u$(small)">
-					<h3 style="color: #000;"><a href="/storage/docs/PDF_D.pdf">PSAC Works for Women</a></h3>
+					<h3 style="color: #E63946;"><a href="../docs/PDF_D.pdf">PSAC Works for Women</a></h3>
 				</div>
 				<div class="6u$ 12u$(small)">
-					<h3 style="color: #000;"><a href="/storage/docs/PDF_E.pdf">PSAC Works for LGBTQ2+ Rights</a></h3>
+					<h3 style="color: #E63946;"><a href="../docs/PDF_E.pdf">PSAC Works for LGBTQ2+ Rights</a></h3>
 				</div>
 			</div>
 			<h2 id="content">Why did we unionize?</h2>
@@ -37,7 +37,7 @@
 			Postdocs across North America are seeking to do the <a href="http://www.sciencemag.org/careers/2017/10/why-im-pushing-postdoc-union">same</a> through unionization.
 			</p>
 			
-			<span class="image fit"><img src="/storage/images/Picture1rr.png" alt="" /></span>
+			<span class="image fit"><img src="../images/Picture1rr.png" alt="" /></span>
 
 			<p style="color: #000;">Every 4 years, the Canadian Association of Postdoctoral Scholars (CAPS) surveys Postdoctoral Fellows in Canada. The 2016 survey <a href="http://www.caps-acsp.ca/wp-content/uploads/2016/11/English_Executive-summary_2016-CAPS-ACSP-National-Survey.pdf">results</a> highlights that Canadian Postdocs:
 			</p>
@@ -62,9 +62,9 @@
 			For all of these reasons, we come together to advocate for ourselves and to break social isolation so that we can achieve employment and social gains, collectively.<br>
 			</p>
 
-			<span class="image fit"><img src="/storage/images/Picture1r.png" alt="" /></span>
+			<span class="image fit"><img src="../images/Picture1r.png" alt="" /></span>
 			
-			<span class="image fit"><img src="/storage/images/Picture1.png" alt="" /></span>
+			<span class="image fit"><img src="../images/Picture1.png" alt="" /></span>
 
 			<h2 id="content">Union Membership and Rights</h2>
 			<p style="color: #000;">
@@ -74,9 +74,8 @@
 			Specifically, full members are members who can participate, run for, and vote in our democratic processes. Membership meetings and elections are two common examples. If you haven’t yet signed your union card, <a href="{{ url('/contactus') }}">contact us</a>.
 			Membership perks also include free participation to all PSAC training [hyperlink to News/Events tab] and events. PSAC members also obtain discounts on a variety of <a href="http://psacunion.ca/topics/member-benefits">services</a>.<br>
 			Our local dues, as set out in our bylaws, are currently set at 1.8% + $1 deducted at source. Of these, a portion goes directly to our local, and the other, to PSAC to fund the membership services articulated below:<br>
-			<h3>PSAC Membership Expenses 2016-2018</h3><br><br>
 
-			<span class="image fit"><img src="/storage/docs/PDF_F.pdf" alt="" /></span>
+			<h3 style="color: #E63946;"><a href="../docs/PDF_F.pdf">PSAC Membership Expenses 2016-2018</a></h3>
 
 			</p>
 

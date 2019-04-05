@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background: #fff; /*helll*/
+		background: black; /*helll*/
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1678,18 +1678,18 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: inherit;
+		color: #a0242d;
 		text-decoration: none;
 		
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #e5e5e0 !important;
+			color: #242943 !important;
 		}
 
 		a:active {
-			color: #fff !important;
+			color: #0077e2 !important;
 		}
 
 	strong, b {
@@ -1842,6 +1842,11 @@
 		width: -ms-max-content;
 		width: max-content;
 		margin-bottom: 2em;
+		color: #fff;
+	}
+
+	header.major > h1 {
+		color: #fff;
 	}
 
 		header.major > :first-child {
@@ -1849,15 +1854,14 @@
 			width: calc(100% + 0.5em);
 		}
 
-
-
-		header.major > p {
-			font-size: 1em;
-			font-weight: 600;
-			letter-spacing: 0.25em;
-			margin-bottom: 0;
-			text-transform: uppercase;
-		}
+	header.major > p {
+		font-size: 1em;
+		color: #fff;
+		font-weight: 600;
+		letter-spacing: 0.25em;
+		margin-bottom: 0;
+		/* text-transform: uppercase; */
+	}
 
 		body.is-ie header.major > :first-child:after {
 			max-width: 9em;
@@ -2812,8 +2816,9 @@
 	#cta2 {
 		background: #1B1B1E;
 		color: #fff;
-		padding: 0.5em 0.5em 0.01em 3.6em;
+		padding: 0 0.5em 2.5em 0em;
 		text-align: center;
+		height: 7.5em;
 	}
 
 		#cta2 h1, #cta2 h2, #cta2 h3, #cta2 h4, #cta2 h5, #cta2 h6 {
@@ -2996,84 +3001,23 @@
 			}
 
 			.tiles article:nth-child(2n - 1), .tiles article:nth-child(2n - 2) {
-				width: 33.333333%;
-
+				width: 100%;
 			}
 
-			.tiles article:nth-child(6n - 5):before {
-				background-color: #000;
-
-			}
-
-			.tiles article:nth-child(6n - 4):before {
+			.tiles article:nth-child(2n - 1):before {
 				background-color: #000;
 			}
 
-			.tiles article:nth-child(6n - 3):before {
-				background-color: #000;
+			.tiles article:nth-child(2n):before {
+				background-color: rgb(228, 140, 140);
 			}
-
-			.tiles article:nth-child(6n - 2):before {
-				background-color: #000;
-			}
-
-			.tiles article:nth-child(6n - 1):before {
-				background-color: #000;
-			}
-
-			.tiles article:nth-child(6n):before {
-				background-color: #000;
-			}
-
-		@media screen and (max-width: 1280px) {
 
 			.tiles article {
 				padding: 4em 3em 2em 3em ;
-				height: 30vh;
-				max-height: 30em;
-				min-height: 20em;
-
+				height: 8.5vh;
+				max-height: 10em;
+				min-height: 8.5em;
 			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			.tiles article {
-				width: 50% !important;
-
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.tiles article {
-				padding: 3em 1.5em 1em 1.5em ;
-				height: 16em;
-				max-height: none;
-				min-height: 0;
-
-			}
-
-				.tiles article h3 {
-					font-size: 1.5em;
-				}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			.tiles {
-				display: block;
-			}
-
-				.tiles article {
-					height: 20em;
-					width: 100% !important;
-				}
-
-		}
 
 /* Post Stuff */
 
@@ -3163,7 +3107,7 @@
 					content: '';
 					display: block;
 					height: 100%;
-					left: 0;
+					left: 100;
 					opacity: 0;
 					position: absolute;
 					top: -100;
@@ -3188,7 +3132,7 @@
 				-ms-align-items: center;
 				align-items: center;
 				padding: 2em 3em 0.1em 3em ;
-				width: 70%;
+				width: 100%;
 			}
 
 				.spotlights > section > .content > .inner {
@@ -3213,52 +3157,40 @@
 				}
 
 		@media screen and (max-width: 1680px) {
-
 			.spotlights > section > .image {
 				width: 40%;
 			}
-
 			.spotlights > section > .content {
 				width: 60%;
 			}
-
 		}
 
 		@media screen and (max-width: 1280px) {
-
 			.spotlights > section > .image {
 				width: 45%;
 			}
-
 			.spotlights > section > .content {
 				width: 55%;
 			}
-
 		}
 
 		@media screen and (max-width: 980px) {
-
 			.spotlights > section {
 				display: block;
 			}
-
 				.spotlights > section > .image {
 					width: 100%;
 				}
-
 				.spotlights > section > .content {
 					padding: 4em 3em 2em 3em ;
 					width: 100%;
 				}
-
 		}
 
 		@media screen and (max-width: 736px) {
-
 			.spotlights > section > .content {
 				padding: 3em 1.5em 1em 1.5em ;
 			}
-
 		}
 
 /* Header */
@@ -3310,8 +3242,6 @@
 			opacity: 1;
 		}
 	}
-
-
 
 	#header {
 		display: -moz-flex;
@@ -3386,13 +3316,13 @@
 			#header nav a {
 				border: 0;
 				display: block;
-				font-size: 0.8em;
+				font-size: 0.7em;
 				height: inherit;
 				line-height: inherit;
 				padding: 0 0.75em;
 				position: relative;
-				vertical-align: middle;
 				text-decoration:none; 
+				letter-spacing: 2px
 			}
 
 				#header nav a:last-child {
@@ -3580,6 +3510,47 @@
 
 		}
 
+/* Dropdown Button */
+.dropbtn {
+	background-color: transparent;
+	color: white;
+	padding: 16px;
+	font-size: 9px;
+	border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: transparent}
+
 /* Banner */
 
 	#banner {
@@ -3592,19 +3563,19 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		padding: 6em 0 2em 0 ;
+		padding: 4em 0 4em 0 ;
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 60vh;
-		margin-bottom: -3.25em;
-		max-height: 32em;
-		min-height: 22em;
+		height: 50vh;
+		margin-bottom: inherit;
+		max-height: 100em;
+		min-height: 0em;
 		position: relative;
-		top: -2em;
+		top: 0em;
 
 	}
 
@@ -3709,9 +3680,7 @@
 				}
 
 		#banner.major {
-			height: 100vh;
-			min-height: 30em;
-			max-height: 50em;
+			height: 60vh;
 		}
 
 			#banner.major.alt {

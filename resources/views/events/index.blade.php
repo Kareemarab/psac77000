@@ -51,7 +51,7 @@
 			@else
 				<!-- CTA -->
 			    <section id="cta2">
-			      <h2>There are no events at this time.</h2>
+			      <h2 style="padding-left: 20px;">There are no events scheduled at this time.</h2>
 			    </section>				
 			@endif					
 		</section>

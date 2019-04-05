@@ -18,6 +18,7 @@ Route::get('/unionadv', 'PagesController@unionadv');
 Route::get('/faq', 'PagesController@faq');
 Route::get('/contactus', 'PagesController@contactus');
 Route::get('/resources', 'PagesController@resources');
+Route::get('/benefits', 'PagesController@benefits');
 //Route::get('/whycupu', 'PagesController@whycupu');
 
 Route::resource('posts', 'PostsController');

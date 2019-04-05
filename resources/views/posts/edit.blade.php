@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Main -->
-<div id="main" class="alt">
+<div style="background-color:#fff;" id="main" class="alt">
 	<div class="inner">
 		<section>
 			<h1 style="color: #000">Edit Post</h1>
