@@ -70,7 +70,7 @@
           <img src="images/4.jpeg" alt="" />
         </span>
         <header class="major">
-          <h3 style="background-color: #E63946 color: #fff;"><a href="{{ url('/posts') }}" class="link">See more.</a></h3>
+          <h3 style="background-color: #E63946 color: #fff;"><a href="{{ url('/posts') }}" class="link">See More</a></h3>
           <p></p>
         </header>
       </article>
@@ -84,8 +84,8 @@
       <!-- CTA -->
     <section id="cta2">
       <div class="vertical-center">
-          <h1>Events</h1>
-        </div>
+        <h1>Events</h1>
+      </div>
     </section>
 
 
