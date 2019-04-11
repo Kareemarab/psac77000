@@ -12,7 +12,7 @@ var subElementArray = $.map($('.sub-element'), function(el) { return $(el).text(
 $(".element").typed({
 		strings: subElementArray,
 		typeSpeed: 30,
-		contentType: 'html',
+		contentType: 'text',
 		showCursor: false,
 		loop: true,
 		loopCount: true,

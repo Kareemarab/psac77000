@@ -9,10 +9,10 @@
 			<img src="../c.jpg" alt="" />
 		</span>
 		<header class="major">
-			<h1 style="color: #E63946">Links</h1>
+			<h1 style="color: #E63946">Useful Links</h1>
 		</header>
 		<div class="content">
-			<h4 style="color: #fff">Useful links.</h4>
+			{{-- <h4 style="color: #fff">Useful links.</h4> --}}
 		</div>
 	</div>
 </section>
@@ -21,9 +21,9 @@
 <div id="main">
 	<section id="one" style="background-color: #fff;">
 		<div class="inner">
-			<header class="major">
+			{{-- <header class="major">
 				<h1 style="color: #000;">Useful Resources</h1>
-			</header>
+			</header> --}}
 			
 			<a style="color: #E63946;" href="https://carleton.ca/career/"><h3 style="color: #E63946;">Career Services</h3></a>
 			<p>Job search support, career and networking events</p>

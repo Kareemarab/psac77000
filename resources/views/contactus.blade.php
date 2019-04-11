@@ -45,11 +45,11 @@
 			        </thead>
 			        <tbody> 
 		                
-		                <tr>
+		                {{-- <tr>
 		                    <td style="color: #000;">Violeta Marquez-Cruz</td>
 		                    						 
 		                    <td style="color: #000;">contact.psac77000@gmail.com</td>
-		                </tr>
+		                </tr> --}}
 		                <tr>
 		                    <td style="color: #000;">Alberto Tonero</td>
 		                    <td style="color: #000;">contact.psac77000@gmail.com</td>
@@ -77,6 +77,22 @@
 		                <tr>
 		                    <td style="color: #000;">Rahaf Ajaj</td>
 		                    <td style="color: #000;">contact.psac77000@gmail.com</td>
+		                </tr>
+			        </tbody>
+				</table>
+				
+				<h3>JCAA Committee</h3>  
+			    <table style="color: #000;" class="alt">
+			        <thead style="color: #000;">
+			            <tr style="color: #000;">
+			                <th style="color: #000;">Name</th>
+			                <th style="color: #000;">Email</th>
+			            </tr>
+			        </thead>
+			        <tbody>
+		                <tr>
+		                    <td style="color: #000;">Shermeen Nizami</td>
+		                    <td style="color: #000;">jcaa.psac77000@gmail.com</td>
 		                </tr>
 			        </tbody>
 			    </table>

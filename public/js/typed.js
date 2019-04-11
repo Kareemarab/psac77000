@@ -20,11 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-
-
-
 ! function($) {
-
     "use strict";
 
     var Typed = function(el, options) {
@@ -375,7 +371,7 @@
         // attribute to type (null == text)
         attr: null,
         // either html or text
-        contentType: 'html',
+        contentType: 'text',
         // call when done callback function
         callback: function() {},
         // starting callback function before each string

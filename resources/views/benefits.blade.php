@@ -24,18 +24,6 @@
 			</div>
 			</p>
 
-			<h2>What is the Professional Development fund?</h2>
-			<p style="color: #000;">
-			The employer agrees to provide..
-			</p>
-
-			<h2>How to Apply</h2>
-			<p style="color: #000;">
-			Great-West Life health insurance plan..
-			<br>
-			Professional development fund..
-			</p>
-
 			<span class="image fit"><img src="/storage/images/PDF_C.pdf" alt="" /></span>
 		</div>
 	</section>

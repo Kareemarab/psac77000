@@ -27,9 +27,9 @@
 			@if(count($events) > 0)
 				@foreach($events as $event)
 					<section>
-						<a href="generic.html" class="image">
+						{{-- <a href="generic.html" class="image">
 							<img style="width: 100%; height: 100%;" src="/storage/cal.png" alt="" data-position="center center" />
-						</a>
+						</a> --}}
 						<div class="content">
 							<div class="inner">
 								<header class="major">
@@ -40,7 +40,7 @@
 								<p style="color: #fff;">{!! str_limit($event->body, 250) !!}</p>
 								<br>
 								<ul class="actions">
-									<li><a style=" box-shadow: inset 0 0 0 2px #fff; color: #fff;" href="/events/{{$event->id}}" class="button">Learn more</a></li>
+									<li><a style=" background-color: #fff; box-shadow: inset 0 0 0 2px #fff; color: #000;" href="/events/{{$event->id}}" class="button">Learn more</a></li>
 								</ul>
 							</div>
 						</div>

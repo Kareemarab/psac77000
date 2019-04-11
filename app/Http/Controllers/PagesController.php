@@ -39,4 +39,12 @@ class PagesController extends Controller
         return view('benefits');
     }
 
+    public function empissues(){
+        return view('empissues');
+    }
+
+    public function docsandforms(){
+        return view('docsandforms');
+    }
+
 }

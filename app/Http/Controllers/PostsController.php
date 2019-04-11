@@ -76,7 +76,7 @@ class PostsController extends Controller
             // filename to store
             $fileNameToStore = $filename.'_'.time().'.'.$extension;
             // Upload Image
-            $path = $request->file('cover_image')->storeAs('public/cover_images', $fileNameToStore);
+            $path = $request->file('cover_image')->storeAs('/public/cover_images', $fileNameToStore);
         }else{
             $fileNameToStore = 'noimage.jpg';
         }
@@ -133,8 +133,8 @@ class PostsController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
-        'title' => 'required',
-        'body' => 'required'
+            'title' => 'required',
+            'body' => 'required'
         ]);
 
         // Handle fILE uPLOAD
@@ -148,7 +148,8 @@ class PostsController extends Controller
             // filename to store
             $fileNameToStore = $filename.'_'.time().'.'.$extension;
             // Upload Image
-            $path = $request->file('cover_image')->storeAs('public/cover_images', $fileNameToStore);
+            $path = $request->file('cover_image')->storeAs('/public/cover_images', $fileNameToStore);
+            print($fileNameToStore);
         }
 
         // Create post
@@ -180,7 +181,7 @@ class PostsController extends Controller
 
         if ($post->cover_image != 'noimage.jpg') {
             // Delete Image
-            Storage::delete('public/cover_images/'.$post->cover_image);
+            Storage::delete('/public/cover_images'.$post->cover_image);
         }
         
         $post->delete();

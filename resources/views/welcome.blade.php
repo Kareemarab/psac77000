@@ -14,14 +14,23 @@
     <header class="major">
        <h1><span class="spanIot">PSAC</span> <span class="mainIot">77000 PostDoctoral</span><span class="spanIot"> Union</span></h1>
       <div class="element">
-        <div class="sub-element">The website is under-construction.</div>
-        {{-- <div class="sub-element">Collective Bargaining Training Event.</div>
-        <div class="sub-element">Welcome, Alberto!</div> --}}
+        {{-- <div class="sub-element">Welcome Rahaf, our new H&S representative!</div>
+        <div class="sub-element">**Ratification of the new collective agreement**</div> --}}
+        @if(count($posts) > 0)
+          <?php $count = 0; ?>
+          @foreach($posts as $post)
+            <?php if($count == 3) break; ?>
+              <div class="sub-element">{{ $post->title }}</div>
+            <?php $count++; ?>
+          @endforeach
+        @else
+          <div class="sub-element">Welcome to PSAC77000</div>
+        @endif
       </div>
     </header>
     <div style="position: center;" class="content">
       <ul style="padding-left: 40%;" class="actions">
-        <li><a style=" box-shadow: inset 0 0 0 2px #fff; color: #fff;" href="{{ url('/benefits') }}" class="button next scrolly">Apply for Benefits!</a></li>
+        <li><a style=" background-color: #fff; box-shadow: inset 0 0 0 2px #fff; color: #000;" href="{{ url('/benefits') }}" class="button next scrolly">Apply for Benefits</a></li>
       </ul>
     </div>
   </div>
@@ -32,23 +41,28 @@
 
     <!-- CTA -->
     <section id="cta2">
-      <h1>Latest News</h1>
+      <div class="vertical-center">
+        <h1>Latest News</h1>
+      </div>
     </section>
 
   <!-- One -->
     <section id="one" class="tiles">
-        @if(count($posts) > 0)
-        @foreach($posts as $post)
+      @if(count($posts) > 0)
+      <?php $count = 0; ?>
+      @foreach($posts as $post)
+        <?php if($count == 3) break; ?>
           <article>
-                  <span class="image">
-                    <img src="/storage/cover_images/{{$post->cover_image}}" alt="" />
-                  </span>
-                  <header class="major">
-                    <h3 style="color: #fff;"><a href="/posts/{{ $post->id }}" class="link">{{ $post->title }}</a></h3>
-                    <p style="color: #fff;">Posted by {{ $post->user->name }} @ {{ $post->created_at }}</p>
-                  </header>
-                </article>
-        @endforeach        
+            <span class="image">
+              <img src="/storage/cover_images/{{$post->cover_image}}" alt="" />
+            </span>
+            <header class="major">
+              <h3 style="color: #fff;"><a href="/posts/{{ $post->id }}" class="link">{{ $post->title }}</a></h3>
+              <p style="color: #fff;">Posted by {{ $post->user->name }} @ {{ $post->created_at }}</p>
+            </header>
+          </article>
+        <?php $count++; ?>
+      @endforeach        
       @endif
 
       <article>
@@ -69,7 +83,9 @@
 
       <!-- CTA -->
     <section id="cta2">
-      <h1>Events</h1>
+      <div class="vertical-center">
+          <h1>Events</h1>
+        </div>
     </section>
 
 
@@ -77,17 +93,26 @@
       <!-- One -->
       @if(count($events) > 0)
         @foreach($events as $event)
-          <article>
-                  <span class="image">
-                  </span>
-                  <header class="major">
-                    <h3 style="color: #fff;"><a href="/events/{{ $event->id }}" class="link">{{ $event->title }}</a></h3>
-                    <br>
-                    <h4 style="color: #fff">{{ $event->location }} - {{ $event->time }}</h4>
-                    </header>
-                </article>
+          
         @endforeach        
       @endif 
+
+      @if(count($events) > 0)
+      <?php $count = 0; ?>
+      @foreach($events as $event)
+        <?php if($count == 3) break; ?>
+          <article>
+            <span class="image">
+            </span>
+            <header class="major">
+              <h3 style="color: #fff;"><a href="/events/{{ $event->id }}" class="link">{{ $event->title }}</a></h3>
+              <h4 style="color: #fff">{{ $event->location }} - {{ $event->time }}</h4>
+            </header>
+          </article>
+        <?php $count++; ?>
+      @endforeach        
+      @endif
+
       <article>
         <span class="image">
           <img src="images/4.jpeg" alt="" />

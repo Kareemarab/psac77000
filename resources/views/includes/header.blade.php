@@ -1,19 +1,25 @@
 <!-- Header -->
 <header id="header" class="alt">
-<a href="{{ url('/') }}" class="logo"> <img style="max-height: 50px; max-width: 100px; position: center; margin-top: 5px; margin-left: 40px;" src="../images/logoo.png"></span></a>
+<a href="{{ url('/') }}" class="logo"> <img style="max-height: 50px; 
+max-width: 100px; 
+position: center; 
+margin-top: 5px; 
+margin-left: 40px;" 
+src="../images/CUPU_PSAC77000.png"></span></a>
+
 <nav>
   <a style="color: #fff;" href="{{ url('/about') }}">About Us</a>
-  <a style="color: #fff;" href="{{ url('/') }}">Employee Issues</a>
-  {{-- <a style="color: #fff;" href="{{ url('/collective') }}">Collective Bargaining</a> --}}
+  <a style="color: #fff;" href="{{ url('/empissues') }}">Employee Issues</a>
   <a style="color: #fff;" href="{{ url('/unionadv') }}">Union Advantage</a>
   <a style="color: #fff;" href="{{ url('/events') }}">Events</a>
   <a style="color: #fff;" href="{{ url('/posts') }}">News</a>
   <a style="color: #fff;" href="{{ url('/benefits') }}">Benefits</a>
   <div class="dropdown">
-    <a class="dropbtn" style="color: #fff;" href="{{ url('/resources') }}">Resources</a>
+    <a class="dropbtn" style="color: #fff;">Resources</a>
     <div class="dropdown-content">
-      <a style="font-size: 12px;" href="#">Docs & Forms</a>
-    <a style="font-size: 12px;" href="{{ url('/resources') }}">Useful Links</a>
+      <a style="font-size: 12px;" href="{{ url('/resources') }}">Useful Links</a>
+    <a style="font-size: 12px;" href="{{ url('/docsandforms') }}">Docs & Forms</a>
+      <a style="font-size: 12px;" href="#">Health Care</a>
     </div>
   </div>
   <a style="color: #fff;" href="{{ url('/contactus') }}">Contact Us</a>

@@ -34,11 +34,13 @@
 							<div class="inner">
 								<header class="major">
 									<h1>{{ $post->title }}</h1>
-									<p>{!! str_limit($post->body, 50) !!}</p>
+									@if (strlen($post->body) != 0)
+										<p>{!! str_limit($post->body, 50) !!}</p>
+									@endif
 								</header>
 								<p style="color: #fff">Posted by {{ $post->user->name }} on {{ $post->created_at }}</p>
 								<ul class="actions">
-									<li><a style=" box-shadow: inset 0 0 0 2px #fff; color: #fff;" href="/posts/{{$post->id}}" class="button">Learn more</a></li>
+									<li><a style="background-color: #fff; box-shadow: inset 0 0 0 2px #fff; color: #000;" href="/posts/{{$post->id}}" class="button">Learn more</a></li>
 								</ul>
 							</div>
 						</div>

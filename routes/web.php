@@ -19,6 +19,8 @@ Route::get('/faq', 'PagesController@faq');
 Route::get('/contactus', 'PagesController@contactus');
 Route::get('/resources', 'PagesController@resources');
 Route::get('/benefits', 'PagesController@benefits');
+Route::get('/docsandforms', 'PagesController@docsandforms');
+Route::get('/empissues', 'PagesController@empissues');
 //Route::get('/whycupu', 'PagesController@whycupu');
 
 Route::resource('posts', 'PostsController');
