@@ -89,8 +89,8 @@ class PostsController extends Controller
         $post->user_id = auth()->user()->id;
         $post->cover_image = $fileNameToStore;
         $post->save();
-
-        return redirect('/posts')->with('success', 'Post Created'); 
+        $s = "/posts" . "/" . $post->id;
+        return redirect($s)->with('success', 'Post Created'); 
 
     }
 
@@ -163,8 +163,8 @@ class PostsController extends Controller
             $post->cover_image = $fileNameToStore;
         }
         $post->save();
-
-        return redirect('/posts')->with('success', 'Post Updated'); 
+        $s = "/posts" . "/" . $post->id;
+        return redirect($s)->with('success', 'Post Updated'); 
     }
 
     /**

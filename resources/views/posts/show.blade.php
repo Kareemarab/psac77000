@@ -10,14 +10,14 @@
 			<div style="background-color: #fff;" class="inner">
 				<header class="major">
 					<h1 style="color: #000;" >{{$post->title}}</h1>
-					<h3>Written on {{$post->created_at}} EST</h3>
-					<img class="centered" style=" width: 1000px; height: 500px; object-fit: cover;" src="/storage/cover_images/{{$post->cover_image}}" />
+					<h3 style="font-style: italic; font-size: 20px">Published on {{$post->created_at}} est</h3>
+					<img class="centered" style=" width: 825px; height: 500px; object-fit: cover;" src="/storage/cover_images/{{$post->cover_image}}" />
 
 				</header>
 				
 				<p>{!!$post->body!!}</p>
 
-				<h3>- {{$post->user->name}}</h3>
+				<h3>{{$post->user->name}}</h3>
 
 				<hr>
 				
