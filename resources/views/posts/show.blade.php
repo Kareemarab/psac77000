@@ -6,12 +6,15 @@
 <div id="main" class="alt">
 	<!-- One -->
 		<section style="text-decoration:none; background-color: #fff;" class="article" id="one">
+			
 			<div style="background-color: #fff;" class="inner">
 				<header class="major">
 					<h1 style="color: #000;" >{{$post->title}}</h1>
 					<h3>Written on {{$post->created_at}} EST</h3>
+					<img class="centered" style=" width: 1000px; height: 500px; object-fit: cover;" src="/storage/cover_images/{{$post->cover_image}}" />
+
 				</header>
-				<img class="center" style=" position: center; float: center; width: 1000px; height: 500px; object-fit: cover; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover;" src="/storage/cover_images/{{$post->cover_image}}" alt="" data-position="center center" />
+				
 				<p>{!!$post->body!!}</p>
 
 				<h3>- {{$post->user->name}}</h3>

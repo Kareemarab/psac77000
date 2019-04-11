@@ -17,6 +17,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
   </head>
+  <!-- Add a class to flag when the page is fully loaded -->
   <body>
 
     <div id="wrapper">

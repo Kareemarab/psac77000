@@ -7,7 +7,8 @@ margin-top: 5px;
 margin-left: 40px;" 
 src="../images/CUPU_PSAC77000.png"></span></a>
 
-<nav>
+<nav style="letter-spacing: 0.05px;">
+  <a style="color: #fff;" href="{{ url('/') }}">Home</a>
   <a style="color: #fff;" href="{{ url('/about') }}">About Us</a>
   <a style="color: #fff;" href="{{ url('/empissues') }}">Employee Issues</a>
   <a style="color: #fff;" href="{{ url('/unionadv') }}">Union Advantage</a>
