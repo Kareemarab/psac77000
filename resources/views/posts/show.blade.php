@@ -17,7 +17,12 @@
 				<h3>- {{$post->user->name}}</h3>
 
 				<hr>
-				<p><a style="color: #E63946; text-decoration:none;" href="{{ url('/posts') }}">Click here for more articles like this.</a></p>
+				
+				<a style="color: #E63946; text-decoration:none;" href="{{ url('/posts') }}">Check out our upcoming events &#8594;</a>
+				<br>
+				<a style="color: #E63946; text-decoration:none;" href="{{ url('/posts') }}">More articles like this &#8594;</a>
+
+				<br><br>
 				
 				@foreach($all_posts as $post_)
 					@if($post->id == $post_->id)
@@ -47,3 +52,4 @@
 			</div>
 		</section>
 @endsection
+

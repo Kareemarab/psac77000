@@ -13,7 +13,18 @@ class Post extends Model
     // Timestamps
     public $timestamps = true;
 
-    public function user(){
+    public function user()
+    {
     	return $this->belongsTo('App\User');
+    }
+
+    public function getCreatedAtAttribute($date)
+    {
+        return Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $date)->format('Y-m-d');
+    }
+
+    public function getUpdatedAtAttribute($date)
+    {
+        return Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $date)->format('Y-m-d');
     }
 }

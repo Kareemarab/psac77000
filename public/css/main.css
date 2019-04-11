@@ -1641,7 +1641,8 @@
 
 	body, input, select, textarea {
 		color: #000;
-		font-family: Helvetica;
+		/* font-family: Helvetica; */
+		font-family: "Avenir Next" !important;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -1684,12 +1685,12 @@
 
 		a:hover {
 			/* border-bottom-color: transparent; */
-			color: rgb(116, 82, 82) !important;
+			color: rgb(238, 171, 117) !important;
 			text-decoration: none;
 		}
 
 		a:active {
-			color: #0077e2 !important;
+			color: #fff !important;
 		}
 
 	strong, b {
@@ -1858,7 +1859,7 @@
 		font-size: 1em;
 		color: #fff;
 		font-weight: 600;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.05em;
 		margin-bottom: 0;
 		/* text-transform: uppercase; */
 	}
@@ -3272,6 +3273,7 @@
 		width: 100%;
 		z-index: 10000;
 		text-decoration:none; 
+		font-family: 'AvenirNext-DemiBold';
 	}
 
 		#header .logo {

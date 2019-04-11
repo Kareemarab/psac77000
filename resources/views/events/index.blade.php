@@ -34,11 +34,9 @@
 							<div class="inner">
 								<header class="major">
 									<h1 style="color: #fff">{{ $event->title }}</h1>
-									<br>
 									<h2 style="color: #fff">{{ $event->location }} - {{ $event->time }}</h2>
 								</header>
-								<p style="color: #fff;">{!! str_limit($event->body, 250) !!}</p>
-								<br>
+								{{-- <p style="color: #fff;">{!! str_limit($event->body, 100) !!}</p> --}}
 								<ul class="actions">
 									<li><a style=" background-color: #fff; box-shadow: inset 0 0 0 2px #fff; color: #000;" href="/events/{{$event->id}}" class="button">Learn more</a></li>
 								</ul>

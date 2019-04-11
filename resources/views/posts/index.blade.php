@@ -35,7 +35,7 @@
 								<header class="major">
 									<h1>{{ $post->title }}</h1>
 									@if (strlen($post->body) != 0)
-										<p>{!! str_limit($post->body, 50) !!}</p>
+										<p>{!! str_limit($post->body, 100) !!}</p>
 									@endif
 								</header>
 								<p style="color: #fff">Posted by {{ $post->user->name }} on {{ $post->created_at }}</p>

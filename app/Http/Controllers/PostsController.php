@@ -84,7 +84,8 @@ class PostsController extends Controller
         // Create post
         $post = new Post;
         $post->title = $request->input('title');
-        $post->body = $request->input('body');
+        $fixed_body = str_replace('&nbsp;', ' ', $request->input('body'));
+        $post->body = $fixed_body;
         $post->user_id = auth()->user()->id;
         $post->cover_image = $fileNameToStore;
         $post->save();
@@ -156,7 +157,8 @@ class PostsController extends Controller
         // Create post
         $post = Post::find($id);
         $post->title = $request->input('title');
-        $post->body = $request->input('body');
+        $fixed_body = str_replace('&nbsp;', ' ', $request->input('body'));
+        $post->body = $fixed_body;
         if($request->hasFile('cover_image')){
             $post->cover_image = $fileNameToStore;
         }
