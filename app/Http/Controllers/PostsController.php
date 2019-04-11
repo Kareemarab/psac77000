@@ -101,8 +101,9 @@ class PostsController extends Controller
      */
     public function show($id)
     {
+        $all_posts = Post::orderBy('created_at', 'asc')->get();
         $post = Post::find($id);
-        return view('posts.show')->with('post', $post);
+        return view('posts.show')->with('post', $post)->with('all_posts', $all_posts);
     }
 
     /**
