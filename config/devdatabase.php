@@ -43,7 +43,7 @@ return [
             'database' => env('DB_DATABASE', database_path('database.sqlite')),
             'prefix' => '',
         ],
-        
+
         /* This is for deployment
         'mysql' => [
             'driver' => 'mysql',

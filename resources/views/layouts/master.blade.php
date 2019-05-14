@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Footer-with-social-icons.css">
     <!--css-->
-    <link rel="stylesheet" href="{{ URL::to('./css/main.css') }}">
+    <link rel="stylesheet" href="{{ URL::to('./css/main.css?ver=2.0') }}">
     <style> .indented { padding-left: 50pt; padding-right: 50pt; } </style>
 
     <!-- CSRF Token -->

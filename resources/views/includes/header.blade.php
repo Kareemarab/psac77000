@@ -1,10 +1,10 @@
 <!-- Header -->
 <header id="header" class="alt">
-<a href="{{ url('/') }}" class="logo"> <img style="max-height: 50px; 
-max-width: 100px; 
-position: center; 
-margin-top: 5px; 
-margin-left: 40px;" 
+<a href="{{ url('/') }}" class="logo"> <img style="max-height: 50px;
+max-width: 100px;
+position: center;
+margin-top: 5px;
+margin-left: 40px;"
 src="../images/CUPU_PSAC77000.png"></span></a>
 
 <nav style="letter-spacing: 0.05px;">
@@ -20,7 +20,7 @@ src="../images/CUPU_PSAC77000.png"></span></a>
     <div class="dropdown-content">
       <a style="font-size: 12px;" href="{{ url('/resources') }}">Useful Links</a>
     <a style="font-size: 12px;" href="{{ url('/docsandforms') }}">Docs & Forms</a>
-      <a style="font-size: 12px;" href="#">Health Care</a>
+      <a style="font-size: 12px;" href="{{ url('/health') }}">Health Care</a>
     </div>
   </div>
   <a style="color: #fff;" href="{{ url('/contactus') }}">Contact Us</a>
@@ -39,6 +39,6 @@ src="../images/CUPU_PSAC77000.png"></span></a>
       @csrf
   </form>
   @endguest
-  
+
 </nav>
 </header>

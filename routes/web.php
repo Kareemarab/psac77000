@@ -21,6 +21,7 @@ Route::get('/resources', 'PagesController@resources');
 Route::get('/benefits', 'PagesController@benefits');
 Route::get('/docsandforms', 'PagesController@docsandforms');
 Route::get('/empissues', 'PagesController@empissues');
+Route::get('/health', 'PagesController@health');
 //Route::get('/whycupu', 'PagesController@whycupu');
 
 Route::resource('posts', 'PostsController');

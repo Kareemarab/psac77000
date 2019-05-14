@@ -47,4 +47,8 @@ class PagesController extends Controller
         return view('docsandforms');
     }
 
+    public function health(){
+        return view('health');
+    }
+
 }
