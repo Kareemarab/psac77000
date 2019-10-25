@@ -11,11 +11,9 @@
 			</header>
 
 			<a style="color: #E63946;" href="../docs/PDF_CA.pdf"><h3 style="color: #E63946;">Collective Agreement</h3></a>
-			<p>You can view this document online or download it.</p>
 			<a style="color: #E63946;" href="../docs/PDF_A.pdf"><h3 style="color: #E63946;" >Local Bylaws</h3></a>
-			<p>You can view this document online or download it.</p>
-			<a style="color: #E63946;" href="../docs/tuition_waiver_form.pdf"><h3 style="color: #E63946;" >Tution Waiver Form</h3></a>
-			<a style="color: #E63946;" href="../docs/PDF_form"><h3 style="color: #E63946;">Professional Development Fund</h3></a>
+			<a style="color: #E63946;" href="../docs/PDFTuitionWaiverFinal.pdf"><h3 style="color: #E63946;" >Tution Waiver Form</h3></a>
+			<a style="color: #E63946;" href="../docs/PDF_A_form.pdf"><h3 style="color: #E63946;">Professional Development Fund</h3></a>
 		</div>
 	</section>
 

@@ -10,9 +10,9 @@
 			</header>
 			<!-- Content -->
 			<p style="color: #000;">Get in touch with PSAC 77000.</p>
-			
+
 			<div style="color: #000;" class="table-wrapper">
-			    <h3>Executive Committee</h3> 
+			    <h3>Executive Committee</h3>
 			    <table style="color: #000;" class="alt">
 			        <thead style="color: #000;">
 			            <tr style="color: #000;">
@@ -35,7 +35,7 @@
 		                </tr>
 			        </tbody>
 			    </table>
-			    <h3>Communications Subcommittee</h3> 
+			    <h3>Communications Subcommittee</h3>
 			    <table style="color: #000;" class="alt">
 			        <thead style="color: #000;">
 			            <tr style="color: #000;">
@@ -43,11 +43,11 @@
 			                <th style="color: #000;">Email</th>
 			            </tr>
 			        </thead>
-			        <tbody> 
-		                
+			        <tbody>
+
 		                {{-- <tr>
 		                    <td style="color: #000;">Violeta Marquez-Cruz</td>
-		                    						 
+
 		                    <td style="color: #000;">contact.psac77000@gmail.com</td>
 		                </tr> --}}
 		                <tr>
@@ -65,7 +65,7 @@
 			        </tbody>
 			    </table>
 
-			    <h3>Health & Safety Representative</h3>  
+			    <h3>Health & Safety Representative</h3>
 			    <table style="color: #000;" class="alt">
 			        <thead style="color: #000;">
 			            <tr style="color: #000;">
@@ -80,8 +80,8 @@
 		                </tr>
 			        </tbody>
 				</table>
-				
-				<h3>JCAA Committee</h3>  
+
+				<h3>JCAA Committee</h3>
 			    <table style="color: #000;" class="alt">
 			        <thead style="color: #000;">
 			            <tr style="color: #000;">
@@ -96,7 +96,7 @@
 		                </tr>
 			        </tbody>
 			    </table>
-				
+
 				<h3>Collective Bargaining Team</h3>
 			    <table style="color: #000;" class="alt">
 			        <thead style="color: #000;">
@@ -105,10 +105,10 @@
 			                <th style="color: #000;">Email</th>
 			            </tr>
 			        </thead>
-			        <tbody> 
+			        <tbody>
 		                <tr>
-		                    <td style="color: #000;">Ashley Bickerton, PSAC Negotiator</td>
-		                    <td style="color: #000;">bickera@psac-afpc.com </td>
+		                    <td style="color: #000;">Mathieu Brûlé, PSAC Negotiator</td>
+		                    <td style="color: #000;">bruleM@psac-afpc.com</td>
 		                </tr>
 		                {{-- <tr>
 		                    <td style="color: #000;">Jesse Heilman</td>
@@ -129,7 +129,7 @@
 			        </tbody>
 			    </table>
 
-			    <h3>PSAC-NCR</h3>  
+			    <h3>PSAC-NCR</h3>
 			    <table style="color: #000;" class="alt">
 			        <thead style="color: #000;">
 			            <tr style="color: #000;">
@@ -137,7 +137,7 @@
 			                <th style="color: #000;">Email</th>
 			            </tr>
 			        </thead>
-			        <tbody> 
+			        <tbody>
 		                <tr>
 		                    <td style="color: #000;">Caroline Bédard, Regional Representative</td>
 		                    <td style="color: #000;">bedardC@psac-afpc.com</td>
